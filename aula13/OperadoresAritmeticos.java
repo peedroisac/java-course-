@@ -36,7 +36,6 @@ public class OperadoresAritmeticos {
 
         //5
         System.out.println(resultado++);
-        //mesma coisa que
         //System.out.println(resultado);
         //resultado = resultado + 1;
         //resultado +=1;

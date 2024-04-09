@@ -12,11 +12,11 @@ salário no referido mês. */
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Insira quantas horas de trabalho você  ");
+        System.out.println("Insira quanto você ganha por hora de trabalho: ");
         float valorHora = scan.nextFloat();
-        System.out.println("Insira qual o valor que você ganha por hora de trabalho: ");
-        float valorHora = scan.nextFloat();
-        System.out.println("Valor desejado em centímitro é igual a: " + valorArea * valorArea);
+        System.out.println("Insira a quantidade de horas trabalhadas no mês: ");
+        float valorHmes = scan.nextFloat();
+        System.out.println("Seu salário do mês é: " + valorHora * valorHmes);
         
         
         scan.close();
