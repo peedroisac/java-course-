@@ -17,10 +17,10 @@ abaixo do peso. */
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Insira o 1º valor inteiro: ");
-        int valor1 = scan.nextInt();
-        System.out.println("Insira o 2º valor inteiro: ");
-        float valor2 = scan.nextFloat();
+        System.out.println("Insira ");
+        //int valor1 = scan.nextInt();
+        System.out.println("Insira : ");
+        //float valor2 = scan.nextFloat();
  
        
 
