@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "CuriosidadeInt",
+            "request": "launch",
+            "mainClass": "aula11.CuriosidadeInt",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "VariaveisBoolean",
+            "request": "launch",
+            "mainClass": "aula11.VariaveisBoolean",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "VariaveisChar",
+            "request": "launch",
+            "mainClass": "aula11.VariaveisChar",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "VariaveisInteiras",
+            "request": "launch",
+            "mainClass": "aula11.VariaveisInteiras",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "VariaveisPontoFlutuante",
+            "request": "launch",
+            "mainClass": "aula11.VariaveisPontoFlutuante",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "LeituraDadosTeclado",
+            "request": "launch",
+            "mainClass": "aula12.LeituraDadosTeclado",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "CurtoCircuito",
+            "request": "launch",
+            "mainClass": "aula13.CurtoCircuito",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresAritmeticos",
+            "request": "launch",
+            "mainClass": "aula13.OperadoresAritmeticos",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "aula13.OperadoresLogicos",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "OperadoresRelacionais",
+            "request": "launch",
+            "mainClass": "aula13.OperadoresRelacionais",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ1",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ1",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ10",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ10",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ11",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ11",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ12",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ12",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ13",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ13",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ2",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ2",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ3",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ3",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ4",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ4",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ5",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ5",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ6",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ6",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ7",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ7",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ8",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ8",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ9",
+            "request": "launch",
+            "mainClass": "aula13_exercicios.Ativ9",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "IfElse",
+            "request": "launch",
+            "mainClass": "aula14.IfElse",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "aula15.SwitchCase",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ1(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ1",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ2(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ2",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ3(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ3",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ4(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ4",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ5(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ5",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ6(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ6",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ7(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ7",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "Ativ8(1)",
+            "request": "launch",
+            "mainClass": "aula15_exercicios.Ativ8",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "LoopWhile",
+            "request": "launch",
+            "mainClass": "aula16.LoopWhile",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
+            "name": "LoopFor",
+            "request": "launch",
+            "mainClass": "aula17.LoopFor",
+            "projectName": "java-course-_49944f61"
+        }
+    ]
+}
