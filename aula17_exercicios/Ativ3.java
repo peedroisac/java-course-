@@ -41,21 +41,37 @@ public class Ativ3 {
                 salario = scan.nextDouble();
             }
 
-            System.out.println("Digite seu sexo (F - Feminino / M - Masculino): ");
-            String sexo = scan.nextLine();
-            
-            
-            //.toUpperCase();
+            scan.nextLine();
 
-            //while (!genero.equals("F") && !genero.equals("M")){
-                //System.out.println("ERRO! Genero inválido. Digite F para Feminino ou M para Masculino: ");
-                //genero = scan.nextLine().toUpperCase();
-            
-        
+            /*System.out.println("Digite seu sexo (F - Feminino / M - Masculino): ");
+            String genero = scan.nextLine().toUpperCase();
 
+            while (!genero.equals("F") && !genero.equals("M")){
+                System.out.println("ERRO! Genero inválido. Digite F para Feminino ou M para Masculino: ");
+                genero = scan.nextLine().toUpperCase();
+            */
+
+            String sexo;
+            boolean sexoValido = false;
+            while (!sexoValido){
+                System.out.println("Digite seu sexo (F - Feminino / M - Masculino): ");
+                sexo = scan.nextLine();
+
+                if (sexo.equalsIgnoreCase("F") || sexo.equalsIgnoreCase("M")){
+                    sexoValido = true;
+                } else {
+                    System.out.println("ERRO! Digite apenas 'F para feminino ou 'M para masculino: ");
+                }
+
+            }
             
-        scan.close();
+           /* System.out.println("Seu nome é: " + nome);
+            System.out.println("Sua idade é: " + idade);
+            System.out.println("Seu salario é: " + salario);
+            System.out.println("Seu gênero é: " + sexo);*/
+            
+            scan.close();
+
     }
+
 }
-
-
