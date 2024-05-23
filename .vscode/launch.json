@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ativ2",
+            "request": "launch",
+            "mainClass": "aula27_exercicios.Ativ2",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
             "name": "BreakEContinue",
             "request": "launch",
             "mainClass": "aula18.BreakEContinue",
