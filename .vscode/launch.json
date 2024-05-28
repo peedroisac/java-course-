@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteCarro",
+            "request": "launch",
+            "mainClass": "aula32.TesteCarro",
+            "projectName": "java-course-_49944f61"
+        },
+        {
+            "type": "java",
             "name": "Ativ2",
             "request": "launch",
             "mainClass": "aula27_exercicios.Ativ2",
