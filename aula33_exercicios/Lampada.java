@@ -115,7 +115,7 @@ public class Lampada {
         }
     }
     public void mudarEstado(){
-        if (ligada){
+        if (isLigada()){
             desligar();
         } else {
             ligar();
