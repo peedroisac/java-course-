@@ -96,8 +96,6 @@ public class Lampada {
     public void setLigada (boolean ligada ){
         this.ligada = ligada;
     }
-
-    // parei no minuto 4:19
    
 
     public void ligar(){
