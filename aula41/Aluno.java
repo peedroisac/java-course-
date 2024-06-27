@@ -1,4 +1,4 @@
-package aula39;
+package aula41;
 
 public class Aluno extends Pessoa {
 
@@ -10,9 +10,7 @@ public class Aluno extends Pessoa {
         this.nomeVisibilidade = "sasasasas";
         super.nomeVisibilidade = "sasasasata";
 
-
-
-        this.setNomeVisibilidade(nomeVisibilidade);
+        //this.setNomeVisibilidade(nomeVisibilidade);
 
     }
 
@@ -55,5 +53,18 @@ public class Aluno extends Pessoa {
         super.setCpf("2121212121");
         //ou
         this.setCpf("34343434");
+    }
+
+    public String obterEtiquetaEndereco(){
+
+        String s = "Endereço do Aluno: ";
+        s += this.getEndereco();
+        return s;
+    }
+
+    @Override
+    public void imrimirEtiquetaEndereco() {
+
+        System.out.println(this.obterEtiquetaEndereco());
     }
 }

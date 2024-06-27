@@ -1,5 +1,6 @@
-package aula39;
-public class Pessoa{
+package aula40;
+
+public class Pessoa {
 
     private String nome;
     private String endereco;
@@ -59,8 +60,10 @@ public class Pessoa{
         this.telefoneCelular = telefoneCelular;
     }
 
+    //public void setNomeVisibilidade(String nomeVisibilidade) { this.nomeVisibilidade = nomeVisibilidade;}
 
-    public void setNomeVisibilidade(String nomeVisibilidade) {
-        this.nomeVisibilidade = nomeVisibilidade;
+    public String obterEtiquetaEndereco(){
+
+        return endereco;
     }
 }

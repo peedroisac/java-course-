@@ -1,18 +1,16 @@
-package aula39;
+package aula42;
 
-public class Aluno extends Pessoa {
+public class Aluno {
 
     private String curso;
     private double[] notas;
 
     public void verificarAcesso(){
 
-        this.nomeVisibilidade = "sasasasas";
-        super.nomeVisibilidade = "sasasasata";
+       // this.nomeVisibilidade = "sasasasas";
+      //  super.nomeVisibilidade = "sasasasata";
 
-
-
-        this.setNomeVisibilidade(nomeVisibilidade);
+        //this.setNomeVisibilidade(nomeVisibilidade);
 
     }
 
@@ -21,7 +19,7 @@ public class Aluno extends Pessoa {
     }
 
     public Aluno(String nome, String endereco, String telefone, String curso, double[] notas) {
-        super(nome, endereco, telefone);
+       // super(nome, endereco, telefone);
         this.curso = curso;
         this.notas = notas;
     }
@@ -52,8 +50,21 @@ public class Aluno extends Pessoa {
     }
 
     public void metodoQualquer(){
-        super.setCpf("2121212121");
+       // super.setCpf("2121212121");
         //ou
-        this.setCpf("34343434");
+       // this.setCpf("34343434");
+    }
+
+    public String obterEtiquetaEndereco(){
+
+        String s = "Endereço do Aluno: ";
+       // s += this.getEndereco();
+        return s;
+    }
+
+    //@Override
+    public void imrimirEtiquetaEndereco() {
+
+        System.out.println(this.obterEtiquetaEndereco());
     }
 }

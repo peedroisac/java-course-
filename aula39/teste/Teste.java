@@ -1,4 +1,4 @@
-package aula39;
+package aula39.teste;
 
 public class Teste {
 
